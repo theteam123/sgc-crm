@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-13 20:18:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "communication_type",
+  "preference",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "communication_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Communication Type",
+   "options": "Email Marketing\nPhone Calls\nSMS\nPostal Mail\nNewsletter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preference",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Preference",
+   "options": "Opt-in\nOpt-out",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-13 20:18:00.000000",
+ "modified_by": "Administrator",
+ "module": "SGC CRM",
+ "name": "Communication Preference",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

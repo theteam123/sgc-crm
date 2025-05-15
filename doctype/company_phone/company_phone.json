@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-13 20:16:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "phone_type",
+  "phone_number",
+  "is_primary"
+ ],
+ "fields": [
+  {
+   "fieldname": "phone_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Phone Type",
+   "options": "Main\nDirect\nMobile\nFax\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_primary",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Primary"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-13 20:16:00.000000",
+ "modified_by": "Administrator",
+ "module": "SGC CRM",
+ "name": "Company Phone",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

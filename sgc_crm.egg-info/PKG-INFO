@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: sgc_crm
+Version: 0.0.1
+Summary: SGC CRM
+Author: SGC
+Author-email: info@sgc.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: summary
