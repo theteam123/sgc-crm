@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CRM-COMPANY-{####}",
+ "creation": "2025-05-13 20:09:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "industry",
+  "company_type",
+  "website",
+  "linkedin_company_page",
+  "column_break_6",
+  "annual_revenue",
+  "employee_count",
+  "founded_year",
+  "logo",
+  "status",
+  "parent_company",
+  "section_break_13",
+  "notes",
+  "tags",
+  "section_break_16",
+  "addresses",
+  "section_break_18",
+  "phone_numbers",
+  "section_break_20",
+  "email_addresses",
+  "section_break_22",
+  "assigned_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Link",
+   "label": "Industry",
+   "options": "Industry"
+  },
+  {
+   "fieldname": "company_type",
+   "fieldtype": "Select",
+   "label": "Company Type",
+   "options": "Prospect\nCustomer\nPartner\nVendor\nCompetitor"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "linkedin_company_page",
+   "fieldtype": "Data",
+   "label": "LinkedIn Company Page",
+   "options": "URL"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "annual_revenue",
+   "fieldtype": "Currency",
+   "label": "Annual Revenue"
+  },
+  {
+   "fieldname": "employee_count",
+   "fieldtype": "Int",
+   "label": "Employee Count"
+  },
+  {
+   "fieldname": "founded_year",
+   "fieldtype": "Int",
+   "label": "Founded Year"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive\nBlacklisted"
+  },
+  {
+   "fieldname": "parent_company",
+   "fieldtype": "Link",
+   "label": "Parent Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Table MultiSelect",
+   "label": "Tags",
+   "options": "Tag"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break",
+   "label": "Addresses"
+  },
+  {
+   "fieldname": "addresses",
+   "fieldtype": "Table",
+   "label": "Addresses",
+   "options": "Company Address"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break",
+   "label": "Phone Numbers"
+  },
+  {
+   "fieldname": "phone_numbers",
+   "fieldtype": "Table",
+   "label": "Phone Numbers",
+   "options": "Company Phone"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break",
+   "label": "Email Addresses"
+  },
+  {
+   "fieldname": "email_addresses",
+   "fieldtype": "Table",
+   "label": "Email Addresses",
+   "options": "Company Email"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break",
+   "label": "Assignment"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Table",
+   "label": "Assigned To",
+   "options": "User Assignment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-13 20:09:00.000000",
+ "modified_by": "Administrator",
+ "module": "SGC CRM",
+ "name": "Company",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

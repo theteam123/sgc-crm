@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+hooks.py
+install.py
+modules.txt
+requirements.txt
+setup.py
+sgc_crm/__init__.py
+sgc_crm.egg-info/PKG-INFO
+sgc_crm.egg-info/SOURCES.txt
+sgc_crm.egg-info/dependency_links.txt
+sgc_crm.egg-info/not-zip-safe
+sgc_crm.egg-info/top_level.txt
